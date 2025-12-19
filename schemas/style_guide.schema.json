@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "StyleGuide",
+  "type": "object",
+  "required": ["art_style", "color_palette", "mood", "age_rating", "negative_constraints"],
+  "properties": {
+    "art_style": {
+      "type": "string"
+    },
+    "color_palette": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "mood": {
+      "type": "string"
+    },
+    "age_rating": {
+      "type": "string"
+    },
+    "negative_constraints": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

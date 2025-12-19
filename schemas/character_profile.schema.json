@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CharacterProfile",
+  "type": "object",
+  "required": ["name", "physical_traits", "clothing", "personality", "age_appearance"],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "physical_traits": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "clothing": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "personality": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "age_appearance": {
+      "type": "string"
+    }
+  }
+}
