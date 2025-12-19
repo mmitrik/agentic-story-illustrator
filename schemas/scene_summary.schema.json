@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SceneSummarySet",
+  "type": "object",
+  "required": ["chapter", "scenes"],
+  "properties": {
+    "chapter": {
+      "type": "string"
+    },
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "scene_id",
+          "visual_description",
+          "setting",
+          "characters_present",
+          "mood"
+        ],
+        "properties": {
+          "scene_id": {
+            "type": "string"
+          },
+          "visual_description": {
+            "type": "string"
+          },
+          "setting": {
+            "type": "string"
+          },
+          "characters_present": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "mood": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

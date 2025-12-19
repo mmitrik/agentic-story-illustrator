@@ -12,3 +12,9 @@ practice, especially for creative pipelines that require consistency.
 ## Open questions
 - Where does agent autonomy actually help?
 - Where does it hurt?
+
+## Reflection: Testing Agent prompts
+Providing a concrete JSON example dramatically improved field-level compliance.
+The model already understood intent; the example resolved ambiguity.
+
+

@@ -1,0 +1,21 @@
+{
+    "novel_title": "Alice’s Adventures in Wonderland",
+    "chapter": "CHAPTER I. Down the Rabbit-Hole",
+    "scenes": [
+        {
+            "scene_id": 1,
+            "description": "Alice is shown on a sunny riverbank springing to her feet as the White Rabbit scurries past her, clutching a watch pulled from its waistcoat pocket. The rabbit-hole yawns open beneath a hedge in the distance, and Alice leans forward in mid-motion, curiosity and urgency driving her pursuit.",
+            "mood": "sudden curiosity"
+        },
+        {
+            "scene_id": 2,
+            "description": "Alice floats gently downward inside the deep well, her body tilted as if suspended in air, while cupboards, bookshelves, maps, and jars line the curved walls around her. She holds an empty marmalade jar as she drifts past the objects, her expression thoughtful and dreamy in the dim, endless space.",
+            "mood": "wonder and dreaminess"
+        },
+        {
+            "scene_id": 3,
+            "description": "In a long, lamp-lit hall filled with locked doors, tiny Alice stands near a glass table, looking up at the unreachable golden key resting on top. Nearby, the small door stands open just enough to reveal a glimpse of the bright garden beyond, while the empty bottle labeled “DRINK ME” sits beside her, emphasizing her sudden smallness.",
+            "mood": "frustrated longing"
+        }
+    ]
+}

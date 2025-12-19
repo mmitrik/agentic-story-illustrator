@@ -1,0 +1,21 @@
+{
+    "novel_title": "Alice’s Adventures in Wonderland",
+    "chapter": "CHAPTER I. Down the Rabbit-Hole",
+    "scenes": [
+        {
+            "id": 1,
+            "summary": "Alice notices the White Rabbit checking a watch and rushes after it, just in time to see it disappear down a rabbit-hole, into which she immediately follows.",
+            "importance": "high"
+        },
+        {
+            "id": 2,
+            "summary": "Alice falls slowly down the deep well, passing cupboards, shelves, maps, and jars as she muses aloud and grows sleepy during the endless descent.",
+            "importance": "high"
+        },
+        {
+            "id": 3,
+            "summary": "In the lamp-lit hall, Alice discovers the tiny golden key and opens the small door to glimpse a beautiful garden, then drinks from the bottle labeled “DRINK ME” and shrinks too small to reach the key again.",
+            "importance": "high"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "chapter": "CHAPTER I. Down the Rabbit-Hole",
+    "scenes": [
+        {
+            "scene_id": "1",
+            "visual_description": "Alice stands in a grassy field, gazing curiously at a White Rabbit in a waistcoat holding a pocket watch. The Rabbit is hurrying towards a large rabbit-hole, just beyond the hedge. Alice, caught mid-step, is about to chase after it. The hole is dark and inviting.",
+            "setting": "A grassy field with a hedge in the background and a visible rabbit-hole in the foreground",
+            "characters_present": [
+                "Alice",
+                "White Rabbit"
+            ],
+            "mood": "curious"
+        },
+        {
+            "scene_id": "2",
+            "visual_description": "Alice is floating slowly down a deep, dark well, surrounded by floating shelves lined with books, cupboards, and various odd items. Some jars are visible, one marked 'ORANGE MARMALADE,' and Alice’s face shows a mix of wonder and contemplation. Her hair floats around her face as she drifts deeper into the darkness.",
+            "setting": "A dark, endless well with floating shelves and cupboards",
+            "characters_present": [
+                "Alice"
+            ],
+            "mood": "dreamlike"
+        },
+        {
+            "scene_id": "3",
+            "visual_description": "Alice crouches in front of a small, glowing golden key resting on a three-legged glass table in a dimly lit hall. Nearby, a tiny door leads to a beautiful garden, but Alice is too large to fit. She holds the key in her hand, gazing wistfully at the lush garden beyond the door. The hall is filled with rows of locked doors and hanging lamps.",
+            "setting": "A dimly lit hall with locked doors, a glowing golden key on a glass table, and a small door leading to a garden",
+            "characters_present": [
+                "Alice"
+            ],
+            "mood": "longing"
+        }
+    ]
+}
