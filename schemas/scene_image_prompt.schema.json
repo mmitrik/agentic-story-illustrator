@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SceneImagePrompt",
+  "type": "object",
+  "required": ["scene_id", "image_prompt"],
+  "properties": {
+    "scene_id": {
+      "type": "string"
+    },
+    "image_prompt": {
+      "type": "string"
+    }
+  }
+}

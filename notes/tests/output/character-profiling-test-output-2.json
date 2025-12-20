@@ -1,0 +1,31 @@
+{
+    "chapter": "CHAPTER I. Down the Rabbit-Hole",
+    "characters": [
+        {
+            "character_id": "alice",
+            "name": "Alice",
+            "physical_traits": [
+                "human child",
+                "female"
+            ],
+            "clothing": [],
+            "distinctive_features": [],
+            "notes": "Alice’s hair color, eye color, facial features, exact age, and clothing are not specified in this chapter."
+        },
+        {
+            "character_id": "white-rabbit",
+            "name": "White Rabbit",
+            "physical_traits": [
+                "white rabbit",
+                "pink eyes"
+            ],
+            "clothing": [
+                "waistcoat"
+            ],
+            "distinctive_features": [
+                "carries a watch taken from a waistcoat pocket"
+            ],
+            "notes": "The rabbit’s size, posture, and other physical details are not specified beyond what is stated."
+        }
+    ]
+}

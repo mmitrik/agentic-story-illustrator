@@ -1,0 +1,14 @@
+{
+    "character_name": "Alice",
+    "portrait_description": "A human child with youthful proportions, depicted in a soft, painterly storybook style. Her appearance is intentionally understated and generic, with no defining facial characteristics emphasized, allowing flexibility while maintaining a childlike silhouette.",
+    "pose_and_expression": "A neutral, relaxed standing pose with a calm, attentive expression, suitable for reuse across different scenes without implying specific action or emotion.",
+    "clothing_and_accessories": "No clothing or accessories are specified in the source text and should remain visually simple and non-descript, without distinctive elements.",
+    "character_appearance_anchor": "A young girl with shoulder-length light brown hair, wearing a simple knee-length blue dress without additional layers or accessories.",
+
+    "notes": [
+        "Hair color, hairstyle, and eye color are unspecified and may be chosen freely.",
+        "Exact age is not stated beyond her being a child.",
+        "No distinctive markings, scars, or accessories are described.",
+        "Overall appearance should remain consistent across scenes, aside from relative scale changes shown through the environment."
+    ]
+}

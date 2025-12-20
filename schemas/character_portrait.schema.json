@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CharacterPortrait",
+  "type": "object",
+  "required": [
+    "character_name",
+    "portrait_description",
+    "pose_and_expression",
+    "clothing_and_accessories",
+    "notes"
+  ],
+  "properties": {
+    "character_name": {
+      "type": "string"
+    },
+    "portrait_description": {
+      "type": "string"
+    },
+    "pose_and_expression": {
+      "type": "string"
+    },
+    "clothing_and_accessories": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

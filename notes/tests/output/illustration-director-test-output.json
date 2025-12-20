@@ -1,0 +1,38 @@
+{
+    "chapter": "CHAPTER I. Down the Rabbit-Hole",
+    "global_style": {
+        "art_style": "painted storybook fantasy illustration",
+        "mood": "whimsical, curious, and gently dreamlike",
+        "color_palette": [
+            "soft pastels",
+            "warm greens",
+            "golden yellows",
+            "muted blues"
+        ],
+        "visual_density": "moderate",
+        "age_rating": "children"
+    },
+    "scene_illustrations": [
+        {
+            "scene_id": 1,
+            "illustrate": true,
+            "rationale": "This scene introduces the main characters and the inciting moment of wonder, with strong visual contrast between the calm riverbank and the sudden motion of the White Rabbit."
+        },
+        {
+            "scene_id": 2,
+            "illustrate": true,
+            "rationale": "The prolonged fall down the well provides rich imaginative imagery with floating objects and an unusual sense of space, reinforcing the dreamlike tone of the chapter."
+        },
+        {
+            "scene_id": 3,
+            "illustrate": true,
+            "rationale": "This scene establishes the central visual motif of scale and longing, contrasting the dark hall with the bright garden and clearly conveying Alice’s predicament."
+        }
+    ],
+    "consistency_rules": [
+        "Alice’s appearance must remain visually consistent across all scenes, aside from scale changes explicitly shown by the environment.",
+        "The illustration style must remain painterly and storybook-like, avoiding sharp lines or modern visual elements.",
+        "Lighting should reflect the mood of each scene while maintaining a soft, child-appropriate tone.",
+        "Background elements should enhance the sense of wonder without obscuring the characters."
+    ]
+}

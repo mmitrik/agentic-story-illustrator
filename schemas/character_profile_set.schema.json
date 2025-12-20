@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CharacterProfileSet",
+  "type": "object",
+  "required": ["chapter", "characters"],
+  "properties": {
+    "chapter": {
+      "type": "string"
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "character_id",
+          "name",
+          "physical_traits",
+          "clothing",
+          "distinctive_features",
+          "notes"
+        ],
+        "properties": {
+          "character_id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "physical_traits": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "clothing": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "distinctive_features": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "notes": {
+            "type": "string",
+            "description": "Explicit uncertainties or unresolved ambiguities"
+          }
+        }
+      }
+    }
+  }
+}

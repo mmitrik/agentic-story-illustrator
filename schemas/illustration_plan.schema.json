@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IllustrationPlan",
+  "type": "object",
+  "required": [
+    "chapter",
+    "global_style",
+    "scene_illustrations",
+    "consistency_rules"
+  ],
+  "properties": {
+    "chapter": {
+      "type": "string"
+    },
+    "global_style": {
+      "type": "object",
+      "required": [
+        "art_style",
+        "mood",
+        "color_palette",
+        "visual_density",
+        "age_rating"
+      ],
+      "properties": {
+        "art_style": { "type": "string" },
+        "mood": { "type": "string" },
+        "color_palette": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "visual_density": {
+          "type": "string",
+          "enum": ["sparse", "moderate", "detailed"]
+        },
+        "age_rating": { "type": "string" }
+      }
+    },
+    "scene_illustrations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "scene_id",
+          "illustrate",
+          "rationale"
+        ],
+        "properties": {
+          "scene_id": { "type": "string" },
+          "illustrate": { "type": "boolean" },
+          "rationale": { "type": "string" }
+        }
+      }
+    },
+    "consistency_rules": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
